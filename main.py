@@ -1,8 +1,6 @@
-from dinosaur import Dinosaurs
-
-from weapon import Weapon
-from herd import Herd
-from fleet import Fleet
+from battlefield import Battlefield
+battlefield = Battlefield()
+battlefield.run_game()
 
 
 # weapon_one = Weapon('Ray gun', 30)
@@ -11,8 +9,8 @@ from fleet import Fleet
 
 
 
-dinosaur_grouped = Herd()
-dinosaur_grouped.dinosaurs = [dinosaur_one, dinosaur_two, dinosaur_three]
+# dinosaur_grouped = Herd()
+# dinosaur_grouped.dinosaurs = [dinosaur_one, dinosaur_two, dinosaur_three]
 
 
 

@@ -9,5 +9,5 @@ class Robot:
         self.weapon = Weapon('Laser Gun', 50)
     
     def attack(self, dinosaur):
-        self.weapon.attack_power -= dinosaur
-
+        dinosaur.health -= self.weapon.attack_power
+        print(f'Good hit, they will feel that one you did{self.weapon.attack_power} damage')
