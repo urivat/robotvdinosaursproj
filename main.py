@@ -1,28 +1,25 @@
 from dinosaur import Dinosaurs
-from robot import Robot
+
 from weapon import Weapon
 from herd import Herd
 from fleet import Fleet
-robot_one = Robot('Blitz')
-robot_two = Robot('Tim')
-robot_three = Robot('Scrappy')
 
 
-weapon_one = Weapon('Ray gun', 30)
-weapon_two = Weapon('light saber', 40)
-weapon_three= Weapon('Photon Cannon', 60)
-
-
-dinosaur_one = Dinosaurs('Big Head', 50)
-dinosaur_two = Dinosaurs('Choppy', 20)
-dinosaur_three = Dinosaurs('Stompy', 30)
+# weapon_one = Weapon('Ray gun', 30)
+# weapon_two = Weapon('light saber', 40)
+# weapon_three= Weapon('Photon Cannon', 60)
 
 
 
-robot_one.weapon.append(weapon_one)
-robot_two.weapon.append(weapon_two)
-robot_three.weapon.append(weapon_three)
-print(robot_one)
+dinosaur_grouped = Herd()
+dinosaur_grouped.dinosaurs = [dinosaur_one, dinosaur_two, dinosaur_three]
+
+
+
+# robot_one.weapon.append[weapon_one]
+# robot_two.weapon.append[weapon_two]
+# robot_three.weapon.append[weapon_three]
+# print(robot_one)
 
 
 
