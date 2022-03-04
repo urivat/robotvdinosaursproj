@@ -3,9 +3,7 @@ battlefield = Battlefield()
 battlefield.run_game()
 
 
-# weapon_one = Weapon('Ray gun', 30)
-# weapon_two = Weapon('light saber', 40)
-# weapon_three= Weapon('Photon Cannon', 60)
+
 
 
 
