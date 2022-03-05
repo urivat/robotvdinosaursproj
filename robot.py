@@ -15,11 +15,11 @@ class Robot:
             
         
 
-    def create_a_weapon(self):
-        weapon_one = Weapon('Laser Gun', 20)
-        self.weapon.append(weapon_one)
-        weapon_two = Weapon('light saber', 40)
-        self.weapon.append(weapon_two)
-        weapon_three = Weapon('Photon Cannon', 30)
-        self.weapon.append(weapon_three)
+    # def create_a_weapon(self):
+    #     weapon_one = Weapon('Laser Gun', 20)
+    #     self.weapon.append(weapon_one)
+    #     weapon_two = Weapon('light saber', 40)
+    #     self.weapon.append(weapon_two)
+    #     weapon_three = Weapon('Photon Cannon', 30)
+    #     self.weapon.append(weapon_three)
    
