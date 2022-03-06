@@ -6,6 +6,6 @@ class Dinosaurs:
 
     def attack(self,robot):
         robot.health -= self.attack_power
-        print(f'Good hit, they will feel that one you did{self.attack_power} damage')
+        print(f'Good hit, they will feel that one you did {self.attack_power} damage')
 
     

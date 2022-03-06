@@ -11,8 +11,8 @@ class Herd:
         dinosaur_one = Dinosaurs('Basilisk', 50)
         self.dinosaurs.append(dinosaur_one)
 
-        dinosaur_two = Dinosaurs('Inferno', 40)
+        dinosaur_two = Dinosaurs('Inferno', 50)
         self.dinosaurs.append(dinosaur_two)
 
-        dinosaur_three = Dinosaurs('Godzilla', 40)
+        dinosaur_three = Dinosaurs('Godzilla', 50)
         self.dinosaurs.append(dinosaur_three)
